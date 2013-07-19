@@ -46,3 +46,6 @@ ln -sb dotfiles/.bashrc .
 ln -sb dotfiles/.bashrc_custom .
 ln -sf dotfiles/.emacs.d .
 
+# git pull bitstarter project from personal Git repo
+cd $HOME
+git clone https://github.com/sbarnesisrael/bitstarter.git
