@@ -48,3 +48,7 @@ ln -sf dotfiles/.emacs.d .
 # git pull bitstarter project from personal Git repo
 cd $HOME
 git clone https://github.com/sbarnesisrael/bitstarter.git
+
+# For installing Postgresql-9.1 (different project)
+#sudo apt-get install postgresql-9.1 postgresql-doc-9.1 postgresql-plperl-9.1 postgresql-plpython-9.1
+
