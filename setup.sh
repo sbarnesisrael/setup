@@ -28,7 +28,7 @@ sudo apt-get install -y emacs24-nox emacs24-el emacs24-common-non-dfsg
 
 # Install Heroku toolbelt
 # https://toolbelt.heroku.com/debian
-wget -qO- https://toolbelt.heroku.com/install-ubuntu.sh | sh
+#wget -qO- https://toolbelt.heroku.com/install-ubuntu.sh | sh
 
 # git pull and install dotfiles as well
 cd $HOME
@@ -46,8 +46,8 @@ ln -sb dotfiles/.bashrc_custom .
 ln -sf dotfiles/.emacs.d .
 
 # git pull bitstarter project from personal Git repo
-cd $HOME
-git clone https://github.com/sbarnesisrael/bitstarter.git
+#cd $HOME
+#git clone https://github.com/sbarnesisrael/bitstarter.git
 
 # For installing Postgresql-9.1 (different project)
 #sudo apt-get install postgresql-9.1 postgresql-doc-9.1 postgresql-plperl-9.1 postgresql-plpython-9.1
